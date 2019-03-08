@@ -2,5 +2,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import {argv} from 'yargs';
 
-console.log('duly');
+console.log('duly noted');
+console.log('argv: ', argv);
